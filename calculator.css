@@ -4,6 +4,7 @@
     height: 70vh;
     width: 30vw;
     margin: 25%;
+
 }
 
 .calculator{
@@ -22,7 +23,7 @@ input{
 .calculator-numericals{
     display: flex;
     justify-content: space-around;
-    grid-column: 4;
+    /* grid-column: 4; */
 
 }
 .light-button{
@@ -54,3 +55,31 @@ input{
     margin-top: 5px;
     
 }
+@media  screen and (max-width: 768px) {
+    .calculator-background{
+        height: 100vh;
+        width: 100vw;
+        margin: 0%;
+    }
+    
+} 
+
+@media screen and (max-width:768px){
+    .calculator{
+        
+        height: 45%;
+        width: 50%;
+        margin: 25%;
+        margin-top: 45%;
+        }
+    } 
+
+@media screen and (max-width:768px){
+    input{
+            
+            height: 10%;
+            width: 95%;
+           
+            }
+        } 
+    
